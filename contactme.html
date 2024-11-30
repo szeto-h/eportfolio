@@ -47,6 +47,7 @@
                             <a href="reflection.html" class="nav-link p-3">Reflection</a>
                         </li>
                     </ul>
+                </div>
             </div>
         </nav>
 
@@ -61,21 +62,21 @@
         <p><small>Fields with <strong>*</strong> are required fields.</small></p>
 
         <label for="fname" class="form-label pt-3 required">First name :</label>
-        <input type="text" id="fname" name="firstname" class="form-control" required aria-required="true" required="">
+        <input type="text" id="fname" name="firstname" class="form-control" required>
 
         <label for="lname" class="form-label pt-3">Last name :</label>
         <input type="text" id="lname" class="form-control">
 
         <label for="phone" class="form-label pt-3"> Phone number :</label>
         <input type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="123-456-7890" id="phone"
-            class="form-control"></dd>
+            class="form-control">
 
-        <label for="email" class="form-label pt-3 required">Email:</label></dt>
+        <label for="email" class="form-label pt-3 required">Email:</label>
         <input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9._%+-]\.[a-z0-9.-]"
-            placeholder="email@example.com" class="form-control" required></dd>
+            placeholder="email@example.com" class="form-control" required>
 
         <label for="sub" class="form-label pt-3 required">Subject:</label>
-        <input type="text" id="subj" name="subject" class="form-control" placeholder="Subject" required></textarea>
+        <input type="text" id="sub" name="subject" class="form-control" placeholder="Subject" required>
 
         <label for="message" class="form-label pt-3 required">Message:</label>
         <textarea name="message" id="message" rows="5" cols="40" placeholder="Please enter your message here"
