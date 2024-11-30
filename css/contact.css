@@ -1,0 +1,8 @@
+/*Abraham. (2019, Dec 20). Use CSS to automatically add 'required field' astrisk to form inputs. Stackoverflow. https://stackoverflow.com/questions/11197671/use-css-to-automatically-add-required-field-asterisk-to-form-inputs */
+.required:after {
+    content: " *";
+    color: red;
+}
+strong {
+    color: red;
+}

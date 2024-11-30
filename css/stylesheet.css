@@ -1,0 +1,33 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+    background-color: #240046;
+}
+.navbar .nav-link.active {
+    background-color:#5A189A;
+}
+.navbar .dropdown-item.active {
+    background-color: #5A189A;
+    color: white;
+}
+.navbar a:hover {
+    background-color: #7B2CBF;
+    color: white;
+}
+strong {
+    color: #C77DFF;
+}
+
+#skip a {
+    position: absolute;
+    top: -10000px;
+    width: 1px;
+    height: 1px;
+}
+#skip a:focus {
+    top: 0px;
+    width: auto;
+    height: auto;
+    background-color: white;
+}

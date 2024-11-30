@@ -1,0 +1,125 @@
+<!doctype html>
+
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Helen Szeto">
+    <meta name="description" content="ePorfolio about me, my education, and my experience">
+    <meta name="keyword" content="ePorfolio">
+    <title>Programming Projects</title>
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="css/proj.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="skip">
+        <a href="#cipher">Skip to Main Content</a>
+    </div>
+    <nav class="navbar navbar-expand-sm sticky-top">
+        <div class="container-fluid d-flex flex-column">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link p-3">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="webproj.html" class="nav-link p-3">Web Projects</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active p-3" role="button" data-bs-toggle="dropdown">Programming Projects</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Top</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#cipher">Caeser Cipher</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#art">Art Gallery Generator</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="expskill.html" class="nav-link p-3">Experience / Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contactme.html" class="nav-link p-3">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reflection.html" class="nav-link p-3">Reflection</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <p class="h1 text-center mt-5 mb-5">Programming Projects</p>
+    <div class="container border pb-5 mb-5">
+        <div id="cipher" class="row one mb-5 p-3">
+            <p class="h2 text-center pt-5 pb-5"><strong>Caesar Cipher</strong></p>
+            <div class="row one">
+                <p class="col-12">During the past year of studies, I learned <strong>Python</strong> and
+                    <strong>C++</strong>, gaining experience with both languages. Using these skills, I developed a
+                    Caesar Cipher program in each language that enables users to encrypt and decrypt messages. Both
+                    programs allow for user input and customization of shift values and directions. These projects
+                    demonstrate my foundational understanding of programming concepts and my ability to apply them
+                    effectively in two distinct programming environments.
+                </p>
+            </div>
+        </div>
+        <div class="row two">
+            <img src="images/prog1.png" class="rounded col-sm-12 col-md-6 col-lg-4" alt="Code snippet of Python caesar cipher" title="Python Code Snippet of Caesar Cipher">
+            <p class="col-sm-12 col-md-6 col-lg-5">Unlike C++, Python does not use the ASCII table to interchange
+                characters, such as letters, with numbers. For this Caesar Cipher project, the alphabet was stored in a
+                list, and simple if-else statements were used to shift letters based on their index. In contrast, C++
+                required more complex mathematical formulas to shift characters correctly in the desired direction.
+                While the use of ASCII tables offers benefits, it can also add complexity to the programming process,
+                presenting a challenging but valuable learning experience for me. To ensure I was able to meet the
+                deadline, I first finished coding the functions that I was confident about. Then I drafted out the
+                functions I was less sure of, writing down the logic on paper to check if it made sense. To continuously
+                test the program, I used various print or cout statements to check if the logic was accurate. With
+                multiple trials, errors, and guidance from Instructional Assistants, I was able to refine my formula and
+                achieve the desired outcome.
+            </p>
+            <img src="images/prog1-1.png" class="rounded col-sm-12 col-md-6 col-lg-3" alt="Code snippet of C++ caesar cipher" title="C++ Code Snippet of Caesar Cipher">
+        </div>
+    </div>
+
+    <div id="art" class="container border pb-5 mb-5">
+        <p class="h2 text-center pt-5 pb-5"><strong>Art Gallery Generator</strong></p>
+        <div class="row one mb-5 p-3">
+            <p class="col-sm-12 col-md-9 col-lg-8">As part of my <strong>C++</strong> learning journey, I had the opportunity to create a
+                library of functions that can be used to generate different pieces of art using C-strings and the ASCII
+                table. Now that I have learned and practiced using the ASCII table, the new challenge is to use it to
+                print out different shapes, such as circles, triangles, and rectangles. With these shapes, I can then
+                use various functions to move them around the canvas to create a piece of 2D art. Following some example
+                functions that my instructor had so kindly provided us in the starter code, I was able to formulate the
+                functions for different shapes. Through research, trial and error, and the help of Instructional
+                Assistants, I was able to complete the library of functions necessary to print out the shapes.</p>
+            <img src="images/prog2.png" class="col-sm-12 col-md-3 col-lg-4" alt="C++ code snippet of art gallery generator project" title="Code Snippet of Art Gallery Generator Project">
+        </div>
+        <div class="row two p-3">
+            <p class="col-12">Using the code I have written, I was able to create some arts and here are the results:</p>
+            <img src="images/prog2-1.png" class="col-sm-12 col-md-6 col-lg-4" alt="Image of snowman created with art gallery generator" title="Snowman">
+            <img src="images/prog2-2.png" class="col-sm-12 col-md-6 col-lg-4" alt="Image of christmas tree with presents created with art gallery generator" title="christmas Tree and Presents">
+            <img src="images/prog2-3.png" class="col-sm-12 col-md-6 col-lg-4" alt="Image of rainy day created with art gallery generator" title="Cloudy Rain">
+        </div>
+    </div>
+    <hr>
+    <footer id="copyright" class="text-center mb-5">
+        <p>Copyright &copy; 2024, Helen Szeto, COMP 2511, Mount Royal University.</p>
+        <p>Contact me by filling in this <a href="contactme.html">form</a> or by emailing me at <a
+                href="mailto:hszet990@mtroyal.ca">hszet990@mtroyal.ca</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

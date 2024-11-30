@@ -1,0 +1,121 @@
+<!doctype html>
+
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Helen Szeto">
+    <meta name="description" content="ePorfolio about me, my education, my experience, my projects, and my reflections">
+    <meta name="keyword" content="ePorfolio">
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="skip">
+        <a href="#about">Skip to Main Content</a>
+    </div>
+    <!--W3School. (n.d.). Bootstrap 5 Navbars. https://www.w3schools.com/bootstrap5/bootstrap_navbar.php
+        W3School. (n.d.). Bootstrap 5 Dropdowns. https://www.w3schools.com/bootstrap5/bootstrap_dropdowns.php
+        W3School. (n.d.). Bootstrap 4 Utilites. https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp -->
+    <nav class="navbar navbar-expand-sm sticky-top">
+        <div class="container-fluid d-flex flex-column">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active p-3">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="webproj.html" class="nav-link p-3">Web Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="progproj.html" class="nav-link p-3">Programming Projects</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="expskill.html" class="nav-link p-3">Experience / Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contactme.html" class="nav-link p-3">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reflection.html" class="nav-link p-3">Reflection</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+    <div id="about" class="container text-center mb-5 mt-5">
+        <p class="h1">Hi, I'm <strong>Helen</strong>!</p>
+        <p class="h2">I am a first year <strong>Data Science student</strong> at Mount Royal University in Calgary.</p>
+        <p class="p-5">I have previously studied and worked in the healthcare industry. With this degree I hope to start
+            a new
+            career and welcome new challenges. With this ePortfolio I hope to showcase some of the work I have completed
+            so far in my degree and document my learning progress.</p>
+        <!--W3Schools. (n.d.). HTML Audio. https://www.w3schools.com/html/html5_audio.asp -->
+        <audio controls class="mb-5">
+            <source src="recording/intro.mp3" type="audio/mpeg">
+        </audio>
+        <!--W3Schools. (n.d.). Bootstrap 5 Collapse. https://www.w3schools.com/bootstrap5/bootstrap_collapse.php -->
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a class="btn" data-bs-toggle="collapse" href="#collapseOne"><p class="h4">Transcript</p></a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Hi! My name is Helen, and welcome to my ePortfolio!
+                            Here, I
+                            would like to give a brief audio introduction of
+                            myself. I am a first-year Data Science student at Mount Royal University in Calgary,
+                            Alberta.
+                            Before starting this degree program, I spent over six years studying and working in the
+                            healthcare industry.
+                            During that time, I have learned a lot about the healthcare system, the industry, and
+                            the
+                            work involved.
+                            Through my last position I learned how vital data is in shaping healthcare and
+                            influencing
+                            industries around
+                            the world. This has motivated me to transition into the field of data science. Whether
+                            it is
+                            conducting
+                            analysis to drive business decisions or developing algorithms that influence individual
+                            choices, I am excited
+                            for the opportunity to acquire new skills and expand my knowledge of the field.
+                            In this ePortfolio, I would like to showcase some of the new technical skills that I
+                            have
+                            acquired during my
+                            studies and document my journey in becoming a data scientist. If you would like to get
+                            in
+                            touch, please feel
+                            free to fill out the contact form or send me an email. Thank you for listening, and I
+                            hope
+                            you enjoy
+                            exploring my work!
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <footer id="copyright" class="text-center mb-5">
+        <p>Copyright &copy; 2024, Helen Szeto, COMP 2511, Mount Royal University.</p>
+        <p>Contact me by filling in this <a href="contactme.html">form</a> or by emailing me at <a
+                href="mailto:hszet990@mtroyal.ca">hszet990@mtroyal.ca</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
