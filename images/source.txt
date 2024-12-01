@@ -1,1 +1,7 @@
 images/web3-1.png [Screenshot of Coolors Palette]. Palette generated with Coolors. https://coolors.co/bee9e8-62b6cb-1b4965-cae9ff-5fa8d3-252628-bec0bd
+images/mru.avif [Photograph of Mount Royal University sign]. (n.d.). CBC News. MRU and faculty association reach agreement in principle in contract negotiations.(2022, February 14). https://www.cbc.ca/news/canada/calgary/mru-faculty-association-contract-agreement-in-principle-1.6351235
+images/qr.png QR code generated with QR Code Generator https://www.qr-code-generator.com/
+images/businesscard.png Business Card generated with Adobe Express https://new.express.adobe.com/
+images/sait.jpg [Photograph of Southern Alberta Institute of Technology] (n.d.). SAIT. Report a Safety Hazard or Concern. https://www.sait.ca/about-sait/campus/facilities-services-and-maintenance/report-a-safety-hazard-or-concern
+images/ahs.jpg [Photograph of Alberta Health Services sign] (n.d.). Radio Canada International. Alberta government planning to dismantle AHS, may sell off care homes, leaked documents show. (2023, November 8). https://ici.radio-canada.ca/rci/en/news/2025042/alberta-government-planning-to-dismantle-ahs-may-sell-off-care-homes-leaked-documents-show
+images/ahs1.jpg [Image of Connect Care sign] (n.d.). Alberta College of Pharmacy. Electronic fax prescriptions from Connect Care. (2023, July 12) https://abpharmacy.ca/news/electronic-fax-prescriptions-connect-care/
