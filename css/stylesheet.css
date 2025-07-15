@@ -34,8 +34,10 @@ strong {
 
 img {
     height: auto;
+    width: auto;
 }
 
 #businesscard {
     width: 50vh;
 }
+
